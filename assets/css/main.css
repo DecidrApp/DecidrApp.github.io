@@ -1175,7 +1175,7 @@ input, select, textarea {
 
 	#banner.wrapper {
 		padding-bottom: 4rem;
-		padding-top: 10rem;
+		padding-top: 5rem;
 	}
 
 	#banner .inner {
@@ -1252,23 +1252,12 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-	@media screen and (max-width: 1680px) {
-
-		#banner.wrapper {
-			padding-bottom: 2rem;
-			padding-top: 14rem;
-		}
-
-	}
-
 	@media screen and (max-width: 1280px) {
 
 		#banner.wrapper {
 			margin-left: auto;
 			margin-right: auto;
 			max-width: 100%;
-			padding-bottom: 2.5rem;
-			padding-top: 10rem;
 			text-align: center;
 		}
 
@@ -1329,12 +1318,6 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px) {
-
-		#banner.wrapper {
-			padding-bottom: 1rem;
-			padding-top: 11rem;
-		}
-
 		#banner .image-wrapper {
 			width: 40rem;
 		}
@@ -1345,7 +1328,6 @@ input, select, textarea {
 
 		#banner.wrapper {
 			max-width: 100%;
-			padding-top: 10rem;
 		}
 
 		#banner .image-wrapper {
@@ -1415,4 +1397,10 @@ Custom CSS
 #info h2 {
 	padding-top: 2rem;
 	margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 736px) {
+	#info img {
+		width: 200px;
+	}
 }
