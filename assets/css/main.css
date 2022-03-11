@@ -1387,6 +1387,11 @@ Custom CSS
 	text-align: center;
 }
 
+#description {
+	padding-top: 1rem;
+	text-align: center;
+}
+
 #info {
 	display: flex;
 	flex-direction: column;
@@ -1401,6 +1406,7 @@ Custom CSS
 
 @media screen and (max-width: 736px) {
 	#info img {
-		width: 200px;
+
+		width: 75%;
 	}
 }
